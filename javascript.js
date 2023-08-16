@@ -231,8 +231,8 @@ var donarkebabs = {
     },
     "4" : {
         "img" : "images/bread.jpg",
-        "name" : "<br>Хлеб",
-        "text" : "Мягкая булочка <br>",
+        "name" : "Хлеб",
+        "text" : "Мягкая булочка",
         "cost" : 3000,
     },
 };
@@ -429,13 +429,13 @@ document.getElementById('hotdog1').innerHTML = hotdog;
 var snacks = {
     "1" : {
         "img" : "images/free_kartoshka.jpg",
-        "name" : "<br><br>Картофель Фри",
+        "name" : "Картофель Фри",
         "text" : "",
         "cost" : 8000,
     },
     "2" : {
         "img" : "images/po_derevenski.jpg",
-        "name" : "<br><br>Картофель по-деревенски",
+        "name" : "Картофель по-деревенски",
         "text" : "",
         "cost" : 14000,
     },
@@ -447,13 +447,13 @@ var snacks = {
     },
     "4" : {
         "img" : "images/strips.jpg",
-        "name" : "<br><br>Стрипсы",
+        "name" : "Стрипсы",
         "text" : "",
         "cost" : 15000,
     },
     "5" : {
         "img" : "images/naggets.jpg",
-        "name" : "<br><br>Наггетсы",
+        "name" : "Наггетсы",
         "text" : "",
         "cost" : 15000,
     },
@@ -495,37 +495,37 @@ document.getElementById('snack1').innerHTML = snack;
 var drinks = {
     "1" : {
         "img" : "images/coca_cola_pour.jpg",
-        "name" : "<br>Coca Cola (разлив)",
+        "name" : "Coca Cola (разлив)",
         "text" : "",
         "cost" : 6000,
     },
     "2" : {
         "img" : "images/coca_cola.jpg",
-        "name" : "<br>Coca Cola",
+        "name" : "Coca Cola",
         "text" : "",
         "cost" : 8000,
     },
     "3" : {
         "img" : "images/fanta.jpg",
-        "name" : "<br>Fanta",
+        "name" : "Fanta",
         "text" : "",
         "cost" : 8000,
     },
     "4" : {
         "img" : "images/fuse_tea.jpg",
-        "name" : "<br>Fuse tea",
+        "name" : "Fuse tea",
         "text" : "",
         "cost" : 8000,
     },
     "5" : {
         "img" : "images/dena.jpg",
-        "name" : "<br>Сок Dena",
+        "name" : "Сок Dena",
         "text" : "",
         "cost" : 15000,
     },
     "6" : {
         "img" : "images/bonaqua.jpg",
-        "name" : "<br>Вода Bonaqua",
+        "name" : "Вода Bonaqua",
         "text" : "",
         "cost" : 3000,
     },
@@ -567,7 +567,7 @@ var drinks = {
     },
     "13" : {
         "img" : "images/disposable_cup.jpg",
-        "name" : "<br>Одноразовый стакан",
+        "name" : "Одноразовый стакан",
         "text" : "",
         "cost" : 1000,
     },
@@ -735,7 +735,7 @@ var garniries = {
     },
     "2" : {
         "img" : "images/salad.jpg",
-        "name" : "<br>Салат с капустой",
+        "name" : "Салат с капустой",
         "text" : "Салат микс из красной капусты ",
         "cost" : 6000,
     },

@@ -1,5 +1,4 @@
 header{
-    height: auto;
     nav{
         .container{
             display: flex;
@@ -126,91 +125,38 @@ header{
             }
         }
     }
-    .header2{
-        .row{
-            // position: fixed;
-            // z-index: 1;
-            // margin-top: 0px;
-            ul{
-                box-shadow: 0px 5px 11px 1px rgb(238, 241, 243);
-
-                li{
-                    a{
-                        color: black;
-                    }
-                    :hover{
-                        background-color: rgb(238, 241, 243);
-                        border-radius: 50px;
-                    }
-                    :active{
-                        color: rgb(93, 34, 103);
-                    }
-                }
-            }
-        }
-    }
 }
 
 
 main{
     .container{
         .row{
-            h1{
-                margin: 50px 0px 30px 0px;
+            .name{
+                h1{
+                    margin: 20px 0px 30px 0px;
+                }
             }
-            .foods{
-                padding: 10px 0px 10px 0px;
-                .block{
-                    margin: 5px 7px 5px 7px;
-                    background-color: rgb(255, 255, 255);
-                    border-radius: 18px;
-                    box-shadow: 1px 1px 8px 0px rgb(233, 229, 229);
-                    height: 95%;
-                    .block1{
-                        .food_image{
-                            width: 100%;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            img{
-                                width: 100%;
-                                margin-top: 20px;
-                            }
-                        }
-                    }
-                    .block2{
-                        padding: 10px 5px 10px 5px;
-                        align-items: end;
-                        display: flex;
-                        // .food_name{
-    
-                        // }
-                        // .food_text{
-    
-                        // }
-                        .summa{
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            p{
-                                align-items: end;
-                                margin-top: 10px;
-                            }
-                        }
-                        .button{
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                         
-                            button{
-                                background-color: rgb(93, 34, 103);
-                                width: 100%;
-                                border: 0px;
-                                border-radius: 50px;
-                                padding: 7px 15px 7px 15px;
-                            }
-                        }
-                    }
+        }
+    }
+    .container-fluid{
+        .row{
+            .images{
+                width: 100%;
+                border: 0px rgb(0, 0, 0) solid;
+                border-radius: 15px;
+                img{
+                    border-radius: 15px;
+                }
+            }
+            .text{
+                color: rgb(0, 0, 0);
+                font-size: 120%;
+                // background-color: rgb(255, 255, 255);
+                // padding: 10px;
+                margin: 30px 20px 30px 20px;
+                a{
+                    color: rgb(93, 34, 103);
+                    text-decoration: none;
                 }
             }
         }

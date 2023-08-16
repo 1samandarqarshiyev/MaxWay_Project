@@ -126,89 +126,58 @@ header{
             }
         }
     }
-    .header2{
-        .row{
-            // position: fixed;
-            // z-index: 1;
-            // margin-top: 0px;
-            ul{
-                box-shadow: 0px 5px 11px 1px rgb(238, 241, 243);
-
-                li{
-                    a{
-                        color: black;
-                    }
-                    :hover{
-                        background-color: rgb(238, 241, 243);
-                        border-radius: 50px;
-                    }
-                    :active{
-                        color: rgb(93, 34, 103);
-                    }
-                }
-            }
-        }
-    }
 }
 
 
 main{
     .container{
         .row{
-            h1{
-                margin: 50px 0px 30px 0px;
-            }
-            .foods{
-                padding: 10px 0px 10px 0px;
+            .basket{
                 .block{
-                    margin: 5px 7px 5px 7px;
-                    background-color: rgb(255, 255, 255);
-                    border-radius: 18px;
-                    box-shadow: 1px 1px 8px 0px rgb(233, 229, 229);
-                    height: 95%;
-                    .block1{
-                        .food_image{
+                    box-shadow: 1px 1px 8px 1px rgb(210, 209, 209);
+                    padding: 50px 0px 50px 0px;
+                    border-radius: 20px;
+                    .korzinka{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .bi-cart-dash-fill{
+                            color: rgb(28, 174, 236);
                             width: 100%;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            img{
-                                width: 100%;
-                                margin-top: 20px;
-                            }
+                            height: auto;
                         }
                     }
-                    .block2{
-                        padding: 10px 5px 10px 5px;
-                        align-items: end;
+                    .text{
                         display: flex;
-                        // .food_name{
-    
-                        // }
-                        // .food_text{
-    
-                        // }
-                        .summa{
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            p{
-                                align-items: end;
-                                margin-top: 10px;
-                            }
+                        justify-content: center;
+                        align-items: center;
+                        h3{
+                            margin: 20px 0px 0px 0px;
+                            text-align: center;
                         }
-                        .button{
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                         
-                            button{
-                                background-color: rgb(93, 34, 103);
-                                width: 100%;
-                                border: 0px;
-                                border-radius: 50px;
-                                padding: 7px 15px 7px 15px;
-                            }
+                    }
+                    .text_mini{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        p{
+                            margin: 0px 0px 20px 0px;
+                            text-align: center;
+                        }
+                    }
+                    .button{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        a{
+                            width: 90%;
+                            background-color: rgb(93, 34, 103);
+                            margin: 10px 0px 10px 0px;
+                            border: 0px;
+                            border-radius: 20px;
+                        }
+                        :active{
+                            color: rgb(93, 34, 103);
                         }
                     }
                 }
